@@ -1,15 +1,39 @@
+<!DOCTYPE html>
 <html> 
     <head> 
         <meta charset="utf-8">
         <title> Rock paper scissors </title>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
+       
     </head>
     <body> 
+        <h1> Rock paper scissors </h1>
+        <p>Choose your weapon.</p>
+        <div class="selections"> 
+            <button id="rock"> Rock </button>
+            <button id="paper"> Paper </button>
+            <button id="scissors"> Scissors </button>
+        </div>
+        <div class="results"> 
+            <h3>Your choice: <span id="user-choice"></span></h3>
+            <h3> Computer choice: <span id="computer-choice"></span></h3>
+            <h3> Result <span id="result"> </span></h3>
 
+        </div>
+        <h2> Scrore </h2>
+        <div class="score">
+            <div> You 
+                <span id="your-score"> </span>
+            </div>
+            <div> Computer 
+                <span id="computer-score"> </span>
+            </div>   
+        </div>
+       
 
 
 
     </body>
-
+    
 </html>

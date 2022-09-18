@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    background-color: #9affcc;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f7b73a;
+}
+body{
+    background-color: #e8ede7;
+    text-align: center;
+}
+button {
+    font-size: larger;
+    cursor: pointer;
+    transition: 100ms;
+}
+button:hover {
+transform: scale(1.2);
+}
+
+.results {
+    font-size: 22px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.result-score {
+    color: #f7b73a;
+}
